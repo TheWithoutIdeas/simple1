@@ -1,0 +1,5 @@
+["./examples/example2.simple1.mod"]
+# INT_MODS - intMod
+# get 2 numbers from user, multiply both and out the result
+&printMod\intMod*7.605>>$
+intMod<printMod$

@@ -1,0 +1,14 @@
+# NO .simple1.mod file
+
+# ascii codes for Hello World!
+# 72 101 108 108 111 32 87 111 114 108 100
+# print converts integers to their ascii code when module is c or any stack module.
+
+&pushtoc\c,a~a$a+%72$!pushtoc$a+%101$!pushtoc$a+%108$!pushtoc$a+%108$!pushtoc$a+%111$!pushtoc$a+%32$!pushtoc$a+%87$!pushtoc$a+%111$!pushtoc$a+%114$!pushtoc$a+%108$!pushtoc$a+%100$!pushtoc$a+%33$!pushtoc$c>$ 
+# prints Hello World!
+# now, let's just perform some simple calculations...
+a+++++$
+b++$
+a*b>>$
+# this will print out 5*2=10 (5 - module a, 2 - module b)
+# Side note: technically, you can just use the "+" sign X amount of times and end it with a $, and that would still assign the same value to a certain module, but using the % operator is much easier.
